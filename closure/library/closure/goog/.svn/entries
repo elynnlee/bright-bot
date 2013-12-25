@@ -1,0 +1,316 @@
+10
+
+dir
+2520
+http://closure-library.googlecode.com/svn/trunk/closure/goog
+http://closure-library.googlecode.com/svn
+
+
+
+2013-02-08T02:23:52.000000Z
+2519
+mknichel@google.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0b95b8e8-c90f-11de-9d4f-f947ee5921c8
+
+object
+dir
+
+string
+dir
+
+a11y
+dir
+
+bootstrap
+dir
+
+messaging
+dir
+
+testing
+dir
+
+result
+dir
+
+spell
+dir
+
+dom
+dir
+
+timer
+dir
+
+cssom
+dir
+
+reflect
+dir
+
+db
+dir
+
+stats
+dir
+
+locale
+dir
+
+style
+dir
+
+gears
+dir
+
+history
+dir
+
+images
+dir
+
+deps.js
+file
+
+
+
+
+2013-12-25T03:55:48.631422Z
+aeb8c91bf889646a9f52474fc987196a
+2013-02-07T02:45:14.000000Z
+2515
+nnaze@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+223091
+
+functions
+dir
+
+json
+dir
+
+jsaction
+dir
+
+base_test.html
+file
+
+
+
+
+2013-12-25T03:55:48.637415Z
+8ee1808a61b39e571204e35e2dfbdad2
+2012-10-04T18:27:57.000000Z
+2215
+nicksantos@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+34150
+
+array
+dir
+
+labs
+dir
+
+module
+dir
+
+proto2
+dir
+
+editor
+dir
+
+debug
+dir
+
+format
+dir
+
+useragent
+dir
+
+uri
+dir
+
+graphics
+dir
+
+positioning
+dir
+
+iter
+dir
+
+throttle
+dir
+
+demos
+dir
+
+tweak
+dir
+
+ui
+dir
+
+vec
+dir
+
+color
+dir
+
+disposable
+dir
+
+base.js
+file
+
+
+
+
+2013-12-25T03:55:48.643415Z
+74513cd1b45a4ee138c9c5b7a0b851b2
+2013-02-01T22:56:34.000000Z
+2500
+johnlenz@google.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+50134
+
+net
+dir
+
+css
+dir
+
+docs
+dir
+
+math
+dir
+
+datasource
+dir
+
+crypt
+dir
+
+proto
+dir
+
+events
+dir
+
+memoize
+dir
+
+structs
+dir
+
+window
+dir
+
+fs
+dir
+
+soy
+dir
+
+date
+dir
+
+fx
+dir
+
+async
+dir
+
+i18n
+dir
+
+asserts
+dir
+
+webgl
+dir
+
+pubsub
+dir
+
+storage
+dir
+
