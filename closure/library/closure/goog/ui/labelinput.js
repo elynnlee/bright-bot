@@ -81,6 +81,14 @@ goog.ui.LabelInput.prototype.ffKeyRestoreValue_ = null;
 
 
 /**
+ * The label restore delay after leaving the input.
+ * @type {number} Delay for restoring the label.
+ * @protected
+ */
+goog.ui.LabelInput.prototype.labelRestoreDelayMs = 10;
+
+
+/**
  * Indicates whether the browser supports the placeholder attribute, new in
  * HTML5.
  * @type {boolean}
@@ -343,10 +351,9 @@ goog.ui.LabelInput.prototype.handleFormSubmit_ = function(e) {
 
 /**
  * Restore value after submit
- * @param {Event} e The event object passed in to the event handler.
  * @private
  */
-goog.ui.LabelInput.prototype.handleAfterSubmit_ = function(e) {
+goog.ui.LabelInput.prototype.handleAfterSubmit_ = function() {
   if (!this.hasChanged()) {
     this.getElement().value = this.label_;
   }
@@ -373,7 +380,7 @@ goog.ui.LabelInput.prototype.hasFocus = function() {
 
 
 /**
- * @return {boolean} Whether the value has changed been changed by the user.
+ * @return {boolean} Whether the value has been changed by the user.
  */
 goog.ui.LabelInput.prototype.hasChanged = function() {
   return !!this.getElement() && this.getElement().value != '' &&
@@ -497,7 +504,8 @@ goog.ui.LabelInput.prototype.check_ = function() {
 
     // Allow browser to catchup with CSS changes before restoring the label.
     if (!goog.ui.LabelInput.SUPPORTS_PLACEHOLDER_) {
-      goog.Timer.callOnce(this.restoreLabel_, 10, this);
+      goog.Timer.callOnce(this.restoreLabel_, this.labelRestoreDelayMs,
+          this);
     }
   } else {
     var el = this.getElement();
